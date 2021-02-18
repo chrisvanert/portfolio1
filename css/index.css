@@ -58,7 +58,7 @@ body {
   background-color: transparent !important;
   background-size: cover;*/
   /*background-color: rgb(43, 38, 38);*/
-  background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));
+  background-color: #ffffff;/*linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
   z-index: 10;
 }
 .navbar-nav {
@@ -76,9 +76,10 @@ body {
 
 /* Navigation dropdown menu */
 .dropdown-menu {
-  background: url("../images/transparency.png");
+  /*background: url("../images/transparency.png");
   background-color: transparent !important;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: #e1e1e1;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
@@ -90,7 +91,7 @@ body {
 
 /* Navigation links */
 .customNav a {
-  color: white !important;
+  color: black !important;
 }
 .navCTA {
   font-size: 15px;
@@ -121,6 +122,18 @@ footer {
   /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
   /*height: calc(100vh - 20px);*/
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fakeJumbotron {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-image: linear-gradient(170deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  /*height: calc(75vh - 20px);*/
+  display: flex;
+  padding-top: 80px;
   align-items: center;
   justify-content: center;
 }
@@ -167,6 +180,12 @@ footer {
   font-size: 120px;
 }
 
+.btn-custom3b {
+  border:0;
+  color:black;
+  font-size: 120px;
+}
+
 .btn-navCTA {
   background-color: /*#c95c03 #069917*/ #29CC29 !important;
 
@@ -200,6 +219,12 @@ a.btn-custom3:hover {
   text-align: center;
   font-weight: 900;
 }
+.sectionHeading2 {
+  font-family: 'Merriweather', serif;
+  text-align: left;
+  font-weight: 900;
+}
+
 .sectionHeadingCS {
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -317,8 +342,9 @@ form {
   opacity: 0;
 }
 .footer1 {
-  background-image: linear-gradient(350deg, rgb(0, 0, 0), rgb(10, 126, 242));
-  color: #e6e6e6;
+  
+  /*background-image: linear-gradient(350deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
+  color: black !important;
 
 }
 
@@ -352,7 +378,7 @@ form {
   float: left;
   text-align: center;
   padding: 8px;
-  color: #e6e6e6;
+  color: black;
 }
 
 ul.no-indentFlex {
