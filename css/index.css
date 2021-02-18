@@ -91,7 +91,7 @@ body {
 
 /* Navigation links */
 .customNav a {
-  color: black !important;
+  color: #0B1F36 !important;
 }
 .navCTA {
   font-size: 15px;
@@ -344,7 +344,7 @@ form {
 .footer1 {
   
   /*background-image: linear-gradient(350deg, rgb(0, 0, 0), rgb(10, 126, 242));*/
-  color: black !important;
+  color: #0B1F36 !important;
 
 }
 
@@ -378,7 +378,7 @@ form {
   float: left;
   text-align: center;
   padding: 8px;
-  color: black;
+  color:#0B1F36;
 }
 
 ul.no-indentFlex {
