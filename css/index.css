@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 font-family: 'Roboto', sans-serif
+
 
 
 
@@ -6,6 +12,15 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+
+
+@media (min-width: 1700px) {
+.aboutText {
+      font-size: 1.6rem;
+      font-weight: 200;
+  }
+}
+
 
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
@@ -93,6 +108,9 @@ body {
 .customNav a {
   color: #0B1F36 !important;
 }
+
+
+
 .navCTA {
   font-size: 15px;
   color: #0B1F36;
@@ -156,15 +174,21 @@ footer {
 .btn-custom2 {
     background-color: #0a7ef2 !important;
     color: white;
+    border:0;
   }
+
+
+
+
 .btn-custom4 {
     background-color:  #29CC29 !important;
-    color: white;
+    color: #0B1F36 !important;
   }
 .btn-custom4:hover {
   background-color:#01a801 !important;
   color:white !important;
 }
+
 
 
 
@@ -187,10 +211,10 @@ footer {
 }
 
 .btn-navCTA {
-  background-color: /*#c95c03 #069917*/ #29CC29 !important;
+  /*background-color: #29CC29 !important;*/
 
   font-size: 15px;
-  color: #0B1F36 !important;
+  color: white !important;
 }
 .btn-navCTA:hover {
   background-color: #01a801 !important;
@@ -272,6 +296,7 @@ a.btn-custom3:hover {
 
 .cardContainer {
   text-align: left;
+  justify-content: start;
 }
 
 .card-title_new {
@@ -360,18 +385,26 @@ form {
       color: #e6e6e6; */
       text-align: center;} 
 }
+
+
+
 .navFlex ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
+
 }
+
+
 
 .navFlex li {
   display:inline-block;
   font-family: 'Roboto', sans-serif;
 }
+
+
 
 .navFlex li a {
   text-decoration: none;
@@ -381,8 +414,18 @@ form {
   color:#0B1F36;
 }
 
+
+
+
+
+
 ul.no-indentFlex {
   padding-left: 10px;
+  text-align:left;
+}
+
+ul.no-indentFlex2 {
+  padding-left: 15px;
   text-align:left;
 }
 
