@@ -28,6 +28,14 @@ html {
 }
 
 
+.dotBackground {
+  background-image: url("../images/DotsBck@2x.png");
+  /*background-repeat: repeat-x;*/
+
+ 
+}
+
+
 
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
