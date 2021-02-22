@@ -16,8 +16,8 @@ html {
 
 @media (min-width: 1700px) {
 .aboutText {
-      font-size: 1.6rem;
-      font-weight: 300;
+      font-size: 1.6rem !important;
+      font-weight: 200 !important;
   }
 .party {
     font-size: 1.6rem;
@@ -26,6 +26,7 @@ html {
     font-size: 1.6rem;
   }
 }
+
 
 
 .dotBackground {
