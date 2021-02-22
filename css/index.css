@@ -22,11 +22,19 @@ html {
 .party {
     font-size: 1.6rem;
     font-weight: 300 !important;
+    letter-spacing: .5px;
+    color: #ececec !important;
+  }
+  .party2 {
+    font-size: 1.6rem;
+    font-weight: 300 !important;
+    letter-spacing: .5px;
   }
   h5 {
     font-size: 1.6rem;
   }
 }
+
 
 
 
