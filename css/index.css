@@ -21,6 +21,7 @@ html {
   }
 .party {
     font-size: 1.6rem;
+    font-weight: 300 !important;
   }
   h5 {
     font-size: 1.6rem;
