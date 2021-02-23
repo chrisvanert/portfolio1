@@ -17,13 +17,12 @@ html {
 @media (min-width: 1700px) {
 .aboutText {
       font-size: 1.6rem !important;
-      font-weight: 200 !important;
+      font-weight: 300 !important;
   }
 .party {
     font-size: 1.6rem;
     font-weight: 300 !important;
     letter-spacing: .5px;
-    color: #ececec !important;
   }
   .party2 {
     font-size: 1.6rem;
@@ -33,6 +32,7 @@ html {
   h5 {
     font-size: 1.6rem;
   }
+
 }
 
 
@@ -49,7 +49,7 @@ html {
 
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-  /*font-family: 'Anton', sans-serif;*/
+ 
   font-family: 'Merriweather', serif;
 }
 
@@ -88,6 +88,7 @@ body {
   margin-bottom: 150px;
 }
 
+
 /* Navigation bar */
 
 /* General */
@@ -115,7 +116,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #0a7ef2  !important;
+  color: #0a7ef2 !important;
 }
 /* Navigation dropdown menu */
 .dropdown-menu {
@@ -127,9 +128,11 @@ body {
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background: #29CC29;
+    background:  #0a7ef2 !important;
 }
-
+.dropdown-item:hover {
+  color: white !important;
+}
 
 
 /* Navigation links */
