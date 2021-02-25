@@ -35,14 +35,22 @@ html {
 
 }
 
+.dolBlue {
+  background-image: linear-gradient(#003b51, #0074ad);
+  color: white;
+}
+
+.dolCaption {
+  text-align: center;
+  font-size: 12px;
+  padding-top:10px;
+}
 
 
 
 .dotBackground {
   background-image: url("../images/DotsBck@2x.png");
   /*background-repeat: repeat-x;*/
-
- 
 }
 
 
