@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&family=Jura&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -92,21 +94,403 @@
 
     <!-- INTRO -->
     <div class="container-fluid">
-
         <div class="row mb-5">
-          <div class="col-lg-3 col-md-12"></div>
-          <div class="col-lg-6 col-md-12">
-              <h1>Coming Soon</h1>
-              <p>Currently working on coding this page. In the meantime, check out the Google Doc version below.<p>
-              <p class="caseStudy"><a href="https://docs.google.com/presentation/d/1SL5OxF-Jt0sOtbbPe0VxY9GXw0nuFZXBPL5JAEPxBgk/edit?usp=sharing">Google Doc version</a></p>
-              <p class="caseStudy"><a href="images/DOL_CaseStudy.pdf">PDF version</a></p>
-             
-          </div>
-
-          <div class="col-lg-3 col-md-12"></div>
+            <div class="col-lg-2 col-md-12"></div>
+            <div class="col-lg-4 col-md-12">
+                <h3 style="font-weight: 700">THE PROBLEM:</h3>
+                <p style="font-size: 1.6rem">The navigation, search function, and layout of the dol.gov site make it difficult for the user to find what they are looking for.
+                </div>
+            <div class="col-lg-4 col-md-12">
+                <h3 style="font-weight: 700">THE SOLUTION:</h3>
+                <p style="font-size: 1.6rem">Remove link duplication, reorganize categories, create robust search feature, redesign homepage to create a better, more efficient user experience.</p>
+            </div>
+            <div class="col-lg-2 col-md-12"></div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-2 col-md-12"></div>
+            <div class="col-lg-8 col-md-12">
+                <h3 style="font-weight: 700">FULL-VERSION PDF:</h3>
+                <p style="font-size: 1.6rem; display: inline;"><a href="images/DOL_CaseStudy.pdf"><button type="button" class="btn btn-customKI2">Case Study PDF</button></a> <p style="font-size: 1.6rem; display: inline;">&nbsp; In-depth PDF case study with supporting documents available.</p>
+            </div>
+            <div class="col-lg-2 col-md-12"></div>
         </div>
     </div>
+
+
       <!-- End Intro -->
+<div class="container-fluid">
+    <div class="row py-5 dolBlueS">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-8 col-md-12">
+            <h1 style="font-weight: 700; letter-spacing: 1px;">Discovery and Analysis</h1>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+</div> <!-- Close Container -->
+
+<div class="container-fluid">
+    <div class="row py-5">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Persona</h2>
+            <p class="party2">As an HR manager, Joan is a typical user of the dol.gov website. She frequently visits the site for information, documents, and compliance assistance for the small company she works for. She has a mid to high level of comfort/expertise with the web and technology, but has <strong> the dol.gov site to be difficult to use.</strong></p>
+            <a href="images/HW8ProtoPersona@2x.png"><button type="button" class="btn btn-customKI2">See Persona</button></a>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">UI Annotation and Heuristics</h2>
+            <p class="party2">Heuristics PDF contains detailed user flows, UI annotations, and heuristic evaluations of the dol.gov website. In general, the site is <strong>disorganized, text-heavy, and overwhelming</strong> in terms of content.</p>
+            <a href="https://drive.google.com/file/d/1riatnvsnpB077hjmK70MT4H9_f5VYw55/view?usp=sharing"><button type="button" class="btn btn-customKI2">Heuristics PDF</button></a> 
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+    <div class="row py-5 dolBlue2">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;" style="font-family:'Roboto', sans-serif !important; font-weight: 700;">Key Insight: User Path</h2>
+            <p class="party2">Joan visits the Department of Labor website to find various information, forms, and statistics that relate to her position as the HR manager for a small business. For this particular visit to dol.gov, Joan is looking for health care compliance information to ensure that her company is following the correct procedures and laws. It takes her <strong>3 attempts across multiple sites</strong> to achieve her goal.</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <a href="images/dolUserFlow.jpg" target="blank"><img src="images/dolUserFlow.jpg" class="img-responsive w-100"></a>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+ 
+    <div class="row pt-5 pb-0">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">User Testing</h2>
+            <p class="party2">PDF contains in-depth analysis of user testing, including: 5 guerrilla user tests with screenshots, user flows, and insights.</p>
+            <a href="https://drive.google.com/file/d/1iCPsT0jih6_NyL96sBD6eSo_bK3CAjDa/view?usp=sharing"><button type="button" class="btn btn-customKI2">User Testing PDF</button></a>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <h4 class="party2" style="font-weight: 700 !important">Key takeaways:</h4>
+            <ul style="margin-left: 1.2em;" class="party2">
+                <li>Mega menus are overwhelming</li>
+                <li>Too much text, too many links</li>
+                <li>Search function has NO filters!!</li>
+                <li>Links don't match content</li>
+                <li>Too many steps to reach content</li>
+                <li>Too many news links</li>
+                <li>General lack of organization</li>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+
+</div> <!-- Close Container -->
+
+<!-- Information Architecture -->
+<div class="container-fluid mt-5">
+    <div class="row py-5 dolBlueS">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-8 col-md-12">
+            <h1 style="font-weight: 700; letter-spacing: 1px;">Information Architecture</h1>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+</div> <!-- Close Container -->
+
+<div class="container-fluid">
+    <div class="row py-5">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Navigation Heuristics</h2>
+            <p class="party2">PDF contains in-depth analysis of the existing dol.gov site global, primary, and secondary navigation elements.</p>
+            <a href="https://drive.google.com/file/d/1ABcRILcmb2_5DW0uSQrYzEJ31CIa1YqZ/view?usp=sharing"><button type="button" class="btn btn-customKI2">UI Navigation Evaluation PDF</button></a>
+        </div>
+    </div> <!-- Row Close -->
+
+
+
+    <div class="row py-5">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Navigation Usability Tests</h2>
+            <p class="party2">Two tasks from the “Top 20” list of most-visited pages were tested, to see how they are represented in the navigation. In the first test to find “Occupational Outlook Handbook”, which is the most-requested topic, <strong> users could not find this without using search</strong> — unless they happened to find the Top 20 link. The second test to find “Family and Medical Leave Act” only took an average of 10 seconds, with links found in Topics mega menu, as well as in the Quick Links.</p>
+            <p class="party2">While only testing two potential user paths, these tests revealed the difference in user experience based on how the navigation is designed. Someone on the design team for the dol.gov site has done the research to determine the most visited links on the site, but <strong>the current navigation does not guide the user to those links without a lot of digging.</strong> The redesign will address these and other issues.</p>
+            <p class="party2">These issues are magnified on the mobile site, as the <strong>scrolling becomes unwieldy</strong>, and lack of content chunking into smaller bits makes navigation very challenging.</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <img src="images/dolNavUserTest.png" class="img-responsive w-100">
+        <p class="mb-0" style="text-align: center;"><a href="https://drive.google.com/file/d/1y_B-UVYfQG4PXoOhXEx5G7QjtxXKIqZe/view?usp=sharing"><button type="button" class="btn btn-customKI2">User Test Recording 1</button></a> &nbsp; <a href="https://drive.google.com/file/d/1ue_3gIGO-Jw-3fIas20ySMkgWenmV85G/view?usp=sharing"><button type="button" class="btn btn-customKI2">User Test Recording 2</button></a></p>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+    <div class="row py-5 dolBlue2">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-family:'Roboto', sans-serif !important; font-weight: 700;">Key Insight: Card Sorting</h2>
+            <p class="party2">Links in the dropdown/mega menus, Quick Links, and footer were card sorted to create more useful content chunking and categorization.
+                Topics and Agencies links in the original scheme produced drop down mega menus with dozens of links, only categorized by alphabetical order. To better guide different user sets to their relevant content, the following steps were taken:
+                <ul style="margin-left: 1.2em;" class="party2">
+                <li>Topics was expanded to 6 user groups: workers, employers, job seekers, safety/health, benefits, statistics/forms.</li>
+                <li>About Us now holds the former News links, as well as all of the Agencies links.</li>
+                <li>Quick Links were changed to show the Top 20 most-visited/requested pages.</li>
+                <li>Search function issues are noted.</li></ul></p>
+                <br>
+                <a href="https://drive.google.com/file/d/1--6YshmCfC0g0bWf6WNnlxaFxkP4Pxdw/view?usp=sharing"><button type="button" class="btn btn-customKI">Card Sorting Detail PDF</button></a>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <img src="images/dolCardSort1.png" class="img-responsive w-100" style="border: solid 1px black">
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+    <div class="row py-5">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Site Map</h2>
+            <p class="party2">The site navigation was reorganized based on the content chunking from the card sorting exercise. The basic number of links is still the same, but they have been put into groups based on the different types of users who may be using the site: <strong> workers, employers, job seekers, researchers, etc </strong>. The user can find relevant topics quicker now with less drilling-down in the mega menus.</p>
+            <p class="party2">The footer was reorganized similarly. The Federal Government and About the Site columns were edited down to minimum required content. The Labor Department column was restructured to mirror the main navigation — with the three main user groups, and a general index.</p>
+            <p class="party2">The detailed site map breakout for “About DOL” is shown for stakeholders to see that previous content is still accounted for, but has been removed from the Primary Navigation and reorganized. </p>
+
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <img src="images/dolSiteMap.png" class="img-responsive w-100" style="border: solid 1px black">
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+    
+    <div class="row py-5 my-5 dolBlue2">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-family:'Roboto', sans-serif !important; font-weight: 700;">Key Insight: Navigation UI — Search</h2>
+            <p class="party2">Previous dol.gov search function was a frustrating experience for users. There were no advanced search options or any filters. A search for “health care compliance” in a user test returned <strong>82,243 results — with no way to filter</strong>. Even when working backwards from a specific page or article and entering those specific keywords into search, the results would not match. Essentially, the search function was not very functional at all.</p> 
+            <figure class="figure">
+                <img src="images/dolSearchOG.png" class="figure-img img-fluid" style="border: solid 1px black; max-width:100%" alt="DOL Nav Before">
+                <figcaption class="figure-caption" style="color:white">Before</figcaption>
+              </figure>
+        </div>
+        
+        
+        <div class="col-lg-4 col-md-12">
+            
+            <br><br><p class="party2">The redesigned search is a dedicated page with multiple sorting and filtering options (final methods TBD) that will make this feature a functional tool for users, which is especially important on such a content-heavy site.</p>
+            <figure class="figure">
+                <img src="images/dolSearchPage@2x.png" class="figure-img img-fluid " style="border: solid 1px black; max-width:100%" alt="DOL Nav After">
+                <figcaption class="figure-caption"style="color:white">After</figcaption>
+              </figure>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+
+    <div class="row py-5">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Navigation UI — Main</h2>
+            <p class="party2">The site navigation was reorganized based on the content chunking from the card sorting exercise.</p>
+            <p class="party2">Main goals:
+                <ul style="margin-left: 1.2em;" class="party2">
+                    <li>Categorize by user: Worker, Employer, Job Seeker, Researcher</li>
+                    <li>Less drilling down</li>
+                    <li>Dropdown content minimized</li>
+                    <li>Quick Links should be most-searched for topics</li>
+                    <li>Use cards for news features</li></ul></p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <h2 style="font-weight: 700;">Navigation UI — Secondary</h2>
+            <p class="party2">Navigation on secondary pages was reorganized similarly, with user groups as top-level differentiator.</p>
+            <p class="party2">Main goals:
+                <ul style="margin-left: 1.2em;" class="party2">
+                    <li>Categorize by user: Worker, Employer, Job Seeker, Researcher</li>
+                    <li>Landing pages for user groups</li>
+                    <li>Links broken out into categories</li>
+                    <li>Popular topics for cateogry prominently featured</li>
+                    </ul></p>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+
+
+</div> <!-- Container Close -->
+
+<!-- UI Design and Testing -->
+<div class="container-fluid mt-5">
+    <div class="row py-5 dolBlueS">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-8 col-md-12">
+            <h1 style="font-weight: 700; letter-spacing: 1px;">UI Design and Testing</h1>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+</div> <!-- Close Container -->
+
+<div class="container-fluid">
+
+<div class="row py-5">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-4 col-md-12">
+        <h2 style="font-weight: 700;">Desktop Clickable Wireframe
+            </h2>
+            <p class="party2">Clickable Items for Testing:</p>
+        <ul style="margin-left: 1.2em;"class="party2">
+            <li>Primary navigation dropdowns</li>
+            <li>Call to action buttons</li>
+            <li>Cards</li>
+            <li>Search</li>
+            </ul>
+            <a href="https://xd.adobe.com/view/69d1134e-19ae-46d9-b1fc-2cf5370c0715-3c82/"><button type="button" class="btn btn-customKI2">Adobe XD Clickable Desktop Wireframe</button></a>
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <h2 style="font-weight: 700;">Mobile Clickable Wireframe
+        </h2>
+        <p class="party2">Clickable Items for Testing:</p>
+    <ul style="margin-left: 1.2em;"class="party2">
+        <li>Hamburger button/sliding nested menu</li>
+        <li>CTA buttons</li>
+        <li>Dropdown bars (Popular Topics)</li>
+        <li>Footer dropdown bars</li>
+        </ul>
+        <a href="https://xd.adobe.com/view/b40e6680-8b0b-4782-8caa-305057801b8f-e15d/"><button type="button" class="btn btn-customKI2">Adobe XD Clickable Mobile Wireframe</button></a>
+
+
+    </div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+
+
+
+<div class="row pb-5 pt-1">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-4 col-md-12">
+        <button type="button" class="btn btn-customKI2" data-toggle="collapse" data-target="#desktopWireframe">See Wireframe <i class="fa fa-chevron-down"></i></button>
+        <div id="desktopWireframe" class="collapse"><a href="images/dolWireframeDesktop2.png" target="blank"> <img src="images/dolWireframeDesktop2.png" class="img-responsive w-100"></a>
+    </div>
+</div>
+    <div class="col-lg-4 col-md-12">
+        <button type="button" class="btn btn-customKI2" data-toggle="collapse" data-target="#mobileWireframe">See Wireframe <i class="fa fa-chevron-down"></i></button>
+        <div id="mobileWireframe" class="collapse"><a href="images/dolWireframesMobile1.png" target="blank"> <img src="images/dolWireframesMobile1.png" class="img-responsive w-100"></a>
+
+    </div>
+</div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+
+<div class="row py-5" style="background-color: #ececec;">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-4 col-md-12">
+        <h2 style="font-weight: 700;">5-Second Tests
+            </h2>
+            <p class="party2">Clickable Items for Testing:</p>
+        <ul style="margin-left: 1.2em;"class="party2">
+            <li>Users were able to locate/use the main features: search, primary navigation, cards, footer</li>
+            <li>User feedback indicated there is a lot of text to scan in order to figure out the various sections.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1vwrjL3cx4ZzLLF5rkYayewapgc2HT8MV/view?usp=sharing"><button type="button" class="btn btn-customKI2">5-Second Test Video</button></a>
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <h2 style="font-weight: 700;">5-Second Tests: Iterations</h2>
+            <p class="party2">Navbar blue darkened, dropdown link text blue darkened for better contrast.
+                Card layout simplified.
+                News articles shown reduced to 3, light blue bar added behind to break up page and text better.
+                Footer items edited
+                </p>
+    </div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+
+
+<div class="row pb-5 pt-0" >
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-8 col-md-12">
+     <img src="images/dol5SecTestIteration1.png" class="img-responsive w-100"></a>
+    </div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+
+<div class="row py-5">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-2 col-md-12">
+        <h2 style="font-weight: 700;">Style Tile
+            </h2>
+            <p class="party2">Style guide providing reference for: overall tone, typography, color, logo usage, buttons, images, UI patterns.</p>
+    </div>
+    <div class="col-lg-6 col-md-12">
+        <a href="images/StyleGuideFinal@2x.png" target="blank"> <img src="images/StyleGuideFinal@2x.png" class="img-responsive w-100" style="border: solid 1px black; max-width:100%"></a>
+       
+    </div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+
+</div> <!--Container Close -->
+
+<!-- Interaction and Finals -->
+<div class="container-fluid mt-5">
+    <div class="row py-5 dolBlueS">
+        <div class="col-lg-2 col-md-12"></div>
+        <div class="col-lg-8 col-md-12">
+            <h1 style="font-weight: 700; letter-spacing: 1px;">Final Prototypes</h1>
+        </div>
+        <div class="col-lg-2 col-md-12"></div>
+    </div> <!-- Row Close -->
+</div> <!-- Close Container -->
+
+<div class="container-fluid">
+<div class="row pt-5">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-8 col-md-12">
+        <h2 style="font-weight: 700; text-align: center;">Final Desktop
+            </h2>
+            <p class="party2" style="font-weight: 500; text-align: center;">Final iterations of desktop version: homepage, secondary page, and search.</p>
+    </div>
+    <div class="col-lg-2 col-md-12"></div>
+</div> <!-- Row Close -->
+<div class="row pb-5">
+    <div class="col-lg-4 col-md-12">
+        <img src="images/Web 1920 – 6@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <img src="images/Web 1920 – 4@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-4 col-md-12">
+        <img src="images/Web 1920 – 5@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+</div> <!-- Row Close -->
+
+<div class="row pt-5">
+    <div class="col-lg-2 col-md-12"></div>
+    <div class="col-lg-8 col-md-12">
+        <h2 style="font-weight: 700; text-align: center;">Final Mobile
+            </h2>
+            <p class="party2" style="font-weight: 500; text-align: center;">Final iterations of mobile version: home, slider menu, secondary, and search.</p>
+    </div>
+    <div class="col-lg-2 col-md-12">
+    </div>
+</div> <!-- Row Close -->
+<div class="row pb-5">
+    <div class="col-lg-2 col-md-12">
+    </div>
+    <div class="col-lg-2 col-md-12">
+        <img src="images/MobileHome@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-2 col-md-12">
+        <img src="images/MobileHomeSliderOpen@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-2 col-md-12">
+        <img src="images/MobileWorkers@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-2 col-md-12">
+        <img src="images/MobileSearch@2x.png"  class="img-responsive w-100" style="border: solid 1px black; max-width:100%">
+    </div>
+    <div class="col-lg-2 col-md-12">
+    </div>
+</div> <!-- Row Close -->
+
+
+
+
+
+
+</div> <!--Container Close -->
+
+
+
+
+      <!-- Other Case Studies Bar-->
       <div class="container-fluid">
         <div class="row py-5" style="background-color: #ebebeb;">
           <div class="col-lg-2 col-md-12"></div>
@@ -115,7 +499,7 @@
               <div><a href="projects_brt.html" style="font-size: 24px;">Border Route Trail</a></div>
               <div><a href="projects_recycleaid.html" style="font-size: 24px;">RecycleAid<a></div>
           </div>
-          <div class="col-lg-2 col-md-12"></div>
+          <div class="col-lg2 col-md-12"></div>
       
         </div> <!-- Row Close -->
       </div> <!--Container Close -->
