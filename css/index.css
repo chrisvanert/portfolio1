@@ -264,11 +264,13 @@ footer {
 .btn-customKI {
   border-color: white;
   color: white;
+  font-weight: 600;
 }
 
 .btn-customKI2 {
   border-color: blue;0
   color: blue;
+  font-weight: 600;
 }
 
 a[aria-expanded=true] .fa-chevron-down {
