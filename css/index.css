@@ -13,6 +13,35 @@ html {
   font-size: 16px;
 }
 
+#nameBar {
+  height: 30px;
+  background-color: #1a4a7a !important;
+  margin-bottom: 20px;
+}
+
+
+#toolsBar {
+  height: 30px;
+  background-color: #1A7A7A !important;
+  margin-bottom: 20px;
+}
+
+#aboutBar {
+  height: 30px;
+  background-color: #2A77C4 !important;
+  margin-bottom: 20px;
+}
+#bioBar {
+  height: 30px;
+  background-color: #0F4545
+  !important;
+  margin-bottom: 20px;
+}
+#skillsBar {
+  height: 30px;
+  background-color: #77BF30 !important;
+  margin-bottom: 20px;
+}
 
 @media (min-width: 1700px) {
 .aboutText {
