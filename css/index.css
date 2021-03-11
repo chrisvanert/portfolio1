@@ -6,12 +6,33 @@
 font-family: 'Roboto', sans-serif
 
 }
+.hr {
+  display: inline-block;
+}
+.hr:before {
+  content: '';
+  display: block;
+  /*border-top: 30px solid #1a4a7a !important;*/
+  margin-bottom: 0.5em;
+}
 
 
 html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+
+.faIcons {
+  color: #1a4a7a;
+}
+
+.aboutImg {
+  background-image: url(../images/PostIts1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
 
 #nameBar {
   height: 30px;
@@ -33,8 +54,7 @@ html {
 }
 #bioBar {
   height: 30px;
-  background-color: #0F4545
-  !important;
+  background-color: #0F4545 !important;
   margin-bottom: 20px;
 }
 #skillsBar {
@@ -185,6 +205,9 @@ body {
 }
 .nav-item {
   margin: 0px 15px;
+}
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 
 .nav-link:hover {
