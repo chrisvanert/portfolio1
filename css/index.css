@@ -16,6 +16,9 @@ font-family: 'Roboto', sans-serif
   margin-bottom: 0.5em;
 }
 
+hr.new4 {
+  border: 1px solid black;
+}
 
 html {
   scroll-behavior: smooth;
